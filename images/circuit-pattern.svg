@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="800px" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="#4e9fff" stroke-width="1.5" fill="none" fill-rule="evenodd">
+        <!-- Lignes horizontales -->
+        <path d="M50,100 L750,100" opacity="0.3"></path>
+        <path d="M150,200 L750,200" opacity="0.3"></path>
+        <path d="M50,300 L650,300" opacity="0.3"></path>
+        <path d="M250,400 L750,400" opacity="0.3"></path>
+        <path d="M50,500 L550,500" opacity="0.3"></path>
+        <path d="M150,600 L750,600" opacity="0.3"></path>
+        <path d="M50,700 L750,700" opacity="0.3"></path>
+        
+        <!-- Lignes verticales -->
+        <path d="M100,50 L100,750" opacity="0.3"></path>
+        <path d="M200,150 L200,750" opacity="0.3"></path>
+        <path d="M300,50 L300,650" opacity="0.3"></path>
+        <path d="M400,250 L400,750" opacity="0.3"></path>
+        <path d="M500,50 L500,550" opacity="0.3"></path>
+        <path d="M600,150 L600,750" opacity="0.3"></path>
+        <path d="M700,50 L700,750" opacity="0.3"></path>
+        
+        <!-- Noeuds / Connexions -->
+        <circle cx="100" cy="100" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        <circle cx="300" cy="100" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        <circle cx="500" cy="100" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        <circle cx="700" cy="100" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        
+        <circle cx="200" cy="200" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        <circle cx="400" cy="200" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        <circle cx="600" cy="200" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        
+        <circle cx="100" cy="300" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        <circle cx="300" cy="300" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        <circle cx="500" cy="300" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        
+        <circle cx="200" cy="400" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        <circle cx="400" cy="400" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        <circle cx="600" cy="400" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        
+        <circle cx="100" cy="500" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        <circle cx="300" cy="500" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        <circle cx="500" cy="500" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        
+        <circle cx="200" cy="600" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        <circle cx="400" cy="600" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        <circle cx="600" cy="600" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        
+        <circle cx="100" cy="700" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        <circle cx="300" cy="700" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        <circle cx="500" cy="700" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        <circle cx="700" cy="700" r="4" fill="#4e9fff" opacity="0.7"></circle>
+        
+        <!-- Éléments de circuits supplémentaires -->
+        <path d="M100,100 C150,100 150,200 200,200" stroke-linecap="round"></path>
+        <path d="M200,200 C250,200 250,300 300,300" stroke-linecap="round"></path>
+        <path d="M300,300 C350,300 350,400 400,400" stroke-linecap="round"></path>
+        <path d="M400,400 C450,400 450,500 500,500" stroke-linecap="round"></path>
+        <path d="M500,500 C550,500 550,600 600,600" stroke-linecap="round"></path>
+        <path d="M600,600 C650,600 650,700 700,700" stroke-linecap="round"></path>
+        
+        <path d="M300,100 C350,100 350,200 400,200" stroke-linecap="round"></path>
+        <path d="M400,200 C450,200 450,300 500,300" stroke-linecap="round"></path>
+        <path d="M200,400 C250,400 250,500 300,500" stroke-linecap="round"></path>
+        <path d="M300,500 C350,500 350,600 400,600" stroke-linecap="round"></path>
+        <path d="M400,600 C450,600 450,700 500,700" stroke-linecap="round"></path>
+        
+        <!-- Petits composants de circuits -->
+        <rect x="295" y="95" width="10" height="10" stroke-width="1"></rect>
+        <rect x="495" y="95" width="10" height="10" stroke-width="1"></rect>
+        <rect x="195" y="195" width="10" height="10" stroke-width="1"></rect>
+        <rect x="395" y="195" width="10" height="10" stroke-width="1"></rect>
+        <rect x="595" y="195" width="10" height="10" stroke-width="1"></rect>
+        <rect x="295" y="295" width="10" height="10" stroke-width="1"></rect>
+        <rect x="495" y="295" width="10" height="10" stroke-width="1"></rect>
+        <rect x="395" y="395" width="10" height="10" stroke-width="1"></rect>
+        <rect x="595" y="395" width="10" height="10" stroke-width="1"></rect>
+        <rect x="295" y="495" width="10" height="10" stroke-width="1"></rect>
+        <rect x="495" y="495" width="10" height="10" stroke-width="1"></rect>
+        <rect x="195" y="595" width="10" height="10" stroke-width="1"></rect>
+        <rect x="395" y="595" width="10" height="10" stroke-width="1"></rect>
+        <rect x="595" y="595" width="10" height="10" stroke-width="1"></rect>
+        <rect x="295" y="695" width="10" height="10" stroke-width="1"></rect>
+        <rect x="495" y="695" width="10" height="10" stroke-width="1"></rect>
+        <rect x="695" y="695" width="10" height="10" stroke-width="1"></rect>
+        
+        <!-- Connecteurs circulaires -->
+        <circle cx="100" cy="100" r="8" stroke-width="1" opacity="0.5"></circle>
+        <circle cx="500" cy="100" r="8" stroke-width="1" opacity="0.5"></circle>
+        <circle cx="400" cy="200" r="8" stroke-width="1" opacity="0.5"></circle>
+        <circle cx="300" cy="300" r="8" stroke-width="1" opacity="0.5"></circle>
+        <circle cx="400" cy="400" r="8" stroke-width="1" opacity="0.5"></circle>
+        <circle cx="100" cy="500" r="8" stroke-width="1" opacity="0.5"></circle>
+        <circle cx="400" cy="600" r="8" stroke-width="1" opacity="0.5"></circle>
+        <circle cx="500" cy="700" r="8" stroke-width="1" opacity="0.5"></circle>
+    </g>
+</svg> 
